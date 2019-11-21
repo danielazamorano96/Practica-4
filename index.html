@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   
+    <title>Product landing page</title>
+
+    <link rel="stylesheet" href="stylesheet.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Calistoga&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header id="header">
+        <h1>PET SHOP</h1>
+        <figure>
+            <img src="imagenes/petlogo.png" alt="logo" id="header-img">
+        </figure>
+        <nav id="nav-bar">
+            <ul>
+                <a class="nav-link" href="#aboutus">About us</a>
+                <a class="nav-link" href="#products">Products</a>
+                <a class="nav-link" href="#contact">Contact</a>
+            </ul> 
+        </nav>
+    </header>
+    <main>
+        <div>
+            <video src="videos/Pip  A Short Animated Film.mp4" controls id="video">Pets</video>
+        </div>
+        
+        <section>
+            <div id="aboutus">
+                <h2>About us</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vitae nibh et libero varius porttitor. Aenean sit amet tellus ac leo malesuada semper nec in velit. Donec consequat ipsum erat, semper dignissim sapien interdum eget. Curabitur ut interdum ipsum. Vestibulum sed lectus non urna posuere sodales placerat id magna. Quisque et neque porttitor, scelerisque purus in, consectetur diam. Vivamus eu convallis nulla. In tempor quam odio, in luctus augue volutpat vel. Nulla et est iaculis, ultrices leo a, commodo ipsum. Cras nec lacinia sapien, eu iaculis nisl. Cras magna lorem, dignissim eu laoreet vel, ornare quis tellus. Maecenas blandit nisl mi, non tincidunt dolor posuere eu. Sed lorem tortor, egestas id dignissim sit amet, pretium in ipsum.</p>
+            </div>
+            <div id="products">
+                <div class="products">
+                    <h2>Mordedor</h2>
+                    <p class="description">Es un accesorio para que tu mascota se entretenga</p>
+                    <p class="price">$500</p>
+                    <button type="button">BUY!</button>
+                </div>
+                <div class="products">
+                    <h2>Correa</h2>
+                    <p class="description">Es un accesorio para que tu mascota salga a pasear</p>
+                    <p class="price">$600</p>
+                    <button type="button">BUY!</button>
+                </div>
+                <div class="products">
+                    <h2>Vestidito canino</h2>
+                    <p class="description">Es un accesorio para que tu mascota salga a desfilar</p>
+                    <p class="price">$700</p>
+                    <button type="button">BUY!</button>
+                </div>
+            </div>
+            <div id="contact">
+                <p>Seguinos en nuestras redes sociales!</p>
+                <a href="">Facebook</a>
+                <a href="">Instagram</a>
+            </div>
+        </section>
+        <div id="formulario">
+            <p>Si tienes dudas, escribenos!</p>
+            <form id="form" action="https://www.freecodecamp.com/email-submit">
+                <label for="name"></label>
+                    <input type="text" name="name" placeholder="Name" id="name">
+                <label for="email"></label>
+                    <input type="email" name="email" placeholder="Email" id="email">
+                <label for="comments"></label>
+                    <textarea name="comments" id="comments" cols="30" rows="10">Escribe tu mensaje aqui...</textarea>
+                <label for="submit"></label>
+                    <input type="submit" name="submit" id="submit">
+            </form>
+        </div>
+        <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    </main>
+</body>
+</html>

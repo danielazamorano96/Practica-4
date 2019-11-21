@@ -1,0 +1,158 @@
+body {
+    background: -webkit-linear-gradient(top, rgb(85, 128, 209), rgb(255, 217, 186));
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+header {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    font-family: Verdana;
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Calistoga', cursive;
+    margin-bottom: 2px;
+}
+
+#header-img {
+    width: 200px;
+    border: 2px solid grey;
+    border-radius: 5px;
+}
+
+#nav-bar {
+    text-align: center;
+    position: fixed;
+    
+    
+}
+
+figure {
+    display: flex;
+    justify-content: center;
+    margin: 2px;
+    
+}
+
+a:hover {
+    color: turquoise;
+}
+
+a:active {
+    color: yellowgreen;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding: 5px;
+    list-style-type: none;
+
+}
+
+video {
+    width: 360px;
+}
+
+#video {
+    display: flex;
+    justify-content: center;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin: 5px auto;
+}
+
+#products {
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.products {
+    border: 3px solid black;
+    margin: 5px auto;
+    padding: 6px;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Calistoga', cursive;
+}
+
+.description {
+    font-size: 20px;
+}
+.price {
+    font-size: 30px;
+}
+
+.price:hover {
+    color: red;
+}
+
+#contact {
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    video {
+        width: 720px;
+    }
+    ul {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        padding: 5px;
+        list-style-type: none;
+        margin: 20px 300px;
+        
+    }
+    
+}
+
+@media (min-width: 1440px) {
+    
+    video {
+        width: 1000px;
+        
+    }
+    ul {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        padding: 5px;
+        list-style-type: none;
+        
+    }
+    #products {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    form {
+        display: flex;
+        flex-direction: column;
+        width: 400px;
+        margin: 0px;
+    }
+
+    #formulario {
+        display: flex;
+        flex-direction: column;
+        
+
+    }
+
+    main > div:first-child {
+        display: flex;
+        justify-content: center;
+    } 
+}
